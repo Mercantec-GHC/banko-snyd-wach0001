@@ -1,0 +1,15 @@
+/Users/walidchan/Documents/GitHub/banko-snyd-wach0001/BankoCheater/bin/Debug/net8.0/BankoCheater
+/Users/walidchan/Documents/GitHub/banko-snyd-wach0001/BankoCheater/bin/Debug/net8.0/BankoCheater.deps.json
+/Users/walidchan/Documents/GitHub/banko-snyd-wach0001/BankoCheater/bin/Debug/net8.0/BankoCheater.runtimeconfig.json
+/Users/walidchan/Documents/GitHub/banko-snyd-wach0001/BankoCheater/bin/Debug/net8.0/BankoCheater.dll
+/Users/walidchan/Documents/GitHub/banko-snyd-wach0001/BankoCheater/bin/Debug/net8.0/BankoCheater.pdb
+/Users/walidchan/Documents/GitHub/banko-snyd-wach0001/BankoCheater/obj/Debug/net8.0/BankoCheater.GeneratedMSBuildEditorConfig.editorconfig
+/Users/walidchan/Documents/GitHub/banko-snyd-wach0001/BankoCheater/obj/Debug/net8.0/BankoCheater.AssemblyInfoInputs.cache
+/Users/walidchan/Documents/GitHub/banko-snyd-wach0001/BankoCheater/obj/Debug/net8.0/BankoCheater.AssemblyInfo.cs
+/Users/walidchan/Documents/GitHub/banko-snyd-wach0001/BankoCheater/obj/Debug/net8.0/BankoCheater.csproj.CoreCompileInputs.cache
+/Users/walidchan/Documents/GitHub/banko-snyd-wach0001/BankoCheater/obj/Debug/net8.0/BankoCheater.sourcelink.json
+/Users/walidchan/Documents/GitHub/banko-snyd-wach0001/BankoCheater/obj/Debug/net8.0/BankoCheater.dll
+/Users/walidchan/Documents/GitHub/banko-snyd-wach0001/BankoCheater/obj/Debug/net8.0/refint/BankoCheater.dll
+/Users/walidchan/Documents/GitHub/banko-snyd-wach0001/BankoCheater/obj/Debug/net8.0/BankoCheater.pdb
+/Users/walidchan/Documents/GitHub/banko-snyd-wach0001/BankoCheater/obj/Debug/net8.0/BankoCheater.genruntimeconfig.cache
+/Users/walidchan/Documents/GitHub/banko-snyd-wach0001/BankoCheater/obj/Debug/net8.0/ref/BankoCheater.dll

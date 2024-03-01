@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/walidchan/Documents/GitHub/banko-snyd-wach0001/BankoCheater/BankoCheater.csproj",
-      "projectName": "BankoCheater",
-      "projectPath": "/Users/walidchan/Documents/GitHub/banko-snyd-wach0001/BankoCheater/BankoCheater.csproj",
+      "projectUniqueName": "/Users/walidchan/Documents/GitHub/banko-snyd-wach0001/banko-snyd-wach0001.csproj",
+      "projectName": "banko-snyd-wach0001",
+      "projectPath": "/Users/walidchan/Documents/GitHub/banko-snyd-wach0001/banko-snyd-wach0001.csproj",
       "packagesPath": "/Users/walidchan/.nuget/packages/",
-      "outputPath": "/Users/walidchan/Documents/GitHub/banko-snyd-wach0001/BankoCheater/obj/",
+      "outputPath": "/Users/walidchan/Documents/GitHub/banko-snyd-wach0001/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/walidchan/.nuget/NuGet/NuGet.Config"

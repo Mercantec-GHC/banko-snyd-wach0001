@@ -60,43 +60,45 @@ function contains_digits(rows) {
   return true;
 }
 function generate_rows_check() {
-  console.log(rows);
   var rows = new Array(generate_row(), generate_row(), generate_row());
+  console.log(rows);
   while (!contains_digits(rows)) {
     var rows = new Array(generate_row(), generate_row(), generate_row());
   }
   return rows;
 }
 function update_plates() {
-  for (var x2 = 1; x2 <= 3; x2++) {
-    for (var x3 = 1; x3 <= 9; x3++) {
-      var celle = "p1" + String(x2) + String(x3);
-      document.getElementById(celle).innerHTML = "";
-    }
-  }
-  var dict = {};
-  for (var n = 1; n <= 3; n++) {
-    var cols = [];
-    for (var i = 0; i < 9; i++) {
-      var col = generate_col(i);
-      cols.push(col);
-    }
-
-    var rows_choose = generate_rows_check();
-
-    var chosen_row;
-
-    for (var j = 0; j < 3; j++) {
-      for (var i = 0; i < rows_choose[j].length; i++) {
-        var k = rows_choose[j][i];
-        var celle = "p" + String(n) + String(j + 1) + String(k);
-        dict[celle] = cols[k - 1][j];
+  for (var board = 1; board <= 10; board++) {
+    for (var x2 = 1; x2 <= 3; x2++) {
+      for (var x3 = 1; x3 <= 9; x3++) {
+        var celle = "p" + String(board) + String(x2) + String(x3); // Update board ID
+        document.getElementById(celle).innerHTML = "";
       }
     }
-  }
+    var dict = {};
+    for (var n = 1; n <= 3; n++) {
+      var cols = [];
+      for (var i = 0; i < 9; i++) {
+        var col = generate_col(i);
+        cols.push(col);
+      }
 
-  for (var key in dict) {
-    var value = dict[key];
-    nyfunktion(value, document.getElementById(key));
+      var rows_choose = generate_rows_check();
+
+      var chosen_row;
+
+      for (var j = 0; j < 3; j++) {
+        for (var i = 0; i < rows_choose[j].length; i++) {
+          var k = rows_choose[j][i];
+          var celle = "p" + String(board) + String(j + 1) + String(k); // Update board ID
+          dict[celle] = cols[k - 1][j];
+        }
+      }
+    }
+
+    for (var key in dict) {
+      var value = dict[key];
+      nyfunktion(value, document.getElementById(key));
+    }
   }
 }
